@@ -16,18 +16,18 @@ const services = [
   },
   {
     icon: <FaHeart />,
-    title: "Psicoterapia cognitivo conductual",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+    title: "Psicoterapia cognitivo conductual (TCC)",
+    description: "Se centra en la relación entre pensamientos, emociones y comportamientos. Parte de la idea de que los pensamientos distorsionados o irracionales influyen en las emociones y las acciones, lo que puede generar malestar psicológico. El objetivo de la TCC es identificar y modificar esos patrones de pensamiento y comportamiento disfuncionales mediante técnicas estructuradas, como la reestructuración cognitiva, el entrenamiento en habilidades y la exposición gradual. Es un enfoque práctico, orientado al presente y basado en la resolución de problemas."
   },
   {
     icon: <FaComments />,
     title: "Psicología de la mujer.",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+    description: "Se centra en las experiencias psicológicas únicas de las mujeres, considerando los factores biológicos, sociales y culturales que influyen en su bienestar mental. Este enfoque reconoce las desigualdades de género, los roles tradicionales, la identidad femenina y las presiones sociales que afectan la salud emocional de las mujeres. En terapia, se abordan temas como el autoestima, la imagen corporal, la maternidad, las relaciones, el acoso o la violencia de género, y la conciliación de la vida profesional y personal. El objetivo es empoderar a las mujeres, validando sus experiencias y promoviendo su autonomía y crecimiento personal."
   },
   {
     icon: <FaInfoCircle />,
     title: "Tratamiento trastornos de la conducta alimentaria (TCA)",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+    description: "se centra en modificar los pensamientos, emociones y comportamientos disfuncionales relacionados con la alimentación, el peso y la imagen corporal. La terapia cognitivo-conductual (TCC) ayuda a los pacientes a identificar patrones de pensamiento distorsionados y a cambiar comportamientos perjudiciales como la restricción alimentaria o los atracones. También se acompaña de terapia familiar, especialmente con adolescentes, y la terapia dialéctico-conductual (TDC) para mejorar la regulación emocional. El tratamiento busca promover una relación más saludable con la comida y mejorar el bienestar emocional."
   }
 ];
 
