@@ -20,7 +20,7 @@ jobs:
     
     - name: Add Lightsail server to known_hosts
       run: |
-        ssh-keyscan -H your_lightsail_ip >> ~/.ssh/known_hosts
+        ssh-keyscan -H 18.206.40.216 >> ~/.ssh/known_hosts
 
     - name: Deploy to Lightsail
       env:
