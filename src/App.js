@@ -80,13 +80,13 @@ function App() {
           Trabajo desde una orientación integrativa en pro del bienestar integral de las personas en sus aspectos fisiológicos, inconscientes, afectivos, familiares, cognitivos, conductuales y espirituales.
           </p>
           <a
-            href="https://www.doctoralia.cl/gema-saldivar/psicologo/providencia"  
+            href="https://www.doctoralia.cl/gema-saldivar/psicologo/providencia" 
             className="cta-button"
             target="_blank" 
             rel="noopener noreferrer" 
           >
-  Contacto
-</a>
+          Contactar por Doctoralia
+        </a>
         </div>
         <div className="hero-image">
           <img src={ProfileImage} alt="Profile" className="responsive-image" />
