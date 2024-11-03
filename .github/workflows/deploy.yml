@@ -1,0 +1,26 @@
+name: Deploy to Amazon Lightsail
+
+on:
+  push:
+    branches:
+      - main  # O la rama que prefieras para desplegar
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup SSH
+      uses: webfactory/ssh-agent@v0.5.3
+      with:
+        ssh-private-key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
+
+    - name: Deploy to Lightsail
+      env:
+        HOST: "bitnami@18.206.40.216"
+        REPO_PATH: "/home/bitnami/muss-page" # Cambia esto a la ruta donde clonarás el repo
+      run: |
+        ssh $HOST "cd $REPO_PATH && git pull origin main && npm install && pm2 restart all"
