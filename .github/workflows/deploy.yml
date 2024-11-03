@@ -17,6 +17,10 @@ jobs:
       uses: webfactory/ssh-agent@v0.5.3
       with:
         ssh-private-key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
+    
+    - name: Add Lightsail server to known_hosts
+      run: |
+        ssh-keyscan -H your_lightsail_ip >> ~/.ssh/known_hosts
 
     - name: Deploy to Lightsail
       env:
