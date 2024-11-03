@@ -20,11 +20,11 @@ jobs:
     
     - name: Add Lightsail server to known_hosts
       run: |
-        ssh-keyscan -H 18.206.40.216 >> ~/.ssh/known_hosts
+        ssh-keyscan -H 34.224.149.45 >> ~/.ssh/known_hosts
 
     - name: Deploy to Lightsail
       env:
-        HOST: "bitnami@18.206.40.216"
+        HOST: "bitnami@34.224.149.45"
         REPO_PATH: "/home/bitnami/muss-page" # Cambia esto a la ruta donde clonarás el repo
       run: |
         ssh $HOST "
