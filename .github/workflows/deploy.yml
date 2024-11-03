@@ -27,4 +27,4 @@ jobs:
         HOST: "bitnami@18.206.40.216"
         REPO_PATH: "/home/bitnami/muss-page" # Cambia esto a la ruta donde clonarás el repo
       run: |
-        ssh $HOST "cd $REPO_PATH && git pull origin main && npm install && pm2 restart all"
+        ssh $HOST "cd $REPO_PATH && git pull origin main && /home/bitnami/.nvm/versions/node/v18.20.4/bin/npm install && /home/bitnami/.nvm/versions/node/v18.20.4/bin/pm2 restart all"
