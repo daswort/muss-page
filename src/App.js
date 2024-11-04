@@ -1,4 +1,6 @@
 import React from "react";
+import { HelmetProvider } from "react-helmet-async";
+import StructuredData from "./components/StructuredData";
 import "./App.css";
 import { FaUserFriends, FaHandsHelping, FaHeart, FaComments, FaInfoCircle, FaCheckCircle } from "react-icons/fa";
 import ProfileImage from './images/ps-gema-saldivar.jpg';
@@ -68,9 +70,10 @@ function ExperienceItem({ number, title, description }) {
 
 function App() {
   return (
+    <HelmetProvider>
     <div className="container">
       {/* Header */}
-
+      <StructuredData />
 
       {/* Hero Section */}
       <section className="hero">
@@ -148,6 +151,7 @@ function App() {
         <p>&copy; 2024 Gema Saldivar. Todos los derechos reservados.</p>
       </footer>
     </div>
+    </HelmetProvider>
   );
 }
 
