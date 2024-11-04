@@ -31,6 +31,6 @@ jobs:
           cd $REPO_PATH && 
           git pull origin main && 
           npm install && 
-          pm2 describe muss_page || pm2 start npm --env production --name 'muss_page' -- start &&
+          pm2 describe muss_page || pm2 start ecosystem.config.js &&
           pm2 restart ecosystem.config.js
         "
