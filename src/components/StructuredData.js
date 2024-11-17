@@ -5,7 +5,7 @@ const StructuredData = () => {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Ps. Gema Saldivar",
+    "name": "Ps. Gema Saldívar",
     "description": "Psicóloga clínica especializada en terapias y consulta online.",
     "url": "https://psgemasaldivar.com",
     "image": "https://psgemasaldivar.com/static/media/ps-gema-saldivar.92223515b8f9947eb0d5.jpg",
@@ -33,7 +33,7 @@ const StructuredData = () => {
   const personSchema = {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Ps. Gema Saldivar",
+    "name": "Ps. Gema Saldívar",
     "jobTitle": "Psicóloga Clínica",
     "image": "https://psgemasaldivar.com/static/media/ps-gema-saldivar.92223515b8f9947eb0d5.jpg",
     "url": "https://psgemasaldivar.com",

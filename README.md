@@ -1,6 +1,6 @@
 # Proyecto React - Muss Page
 
-Página de contacto para psicóloga Gema Saldivar
+Página de contacto para psicóloga Gema Saldívar
 
 ## Tecnologías
 
